@@ -1,0 +1,581 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-image: url(assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+/*Home CSS*/
+.home-header, .destination-header, .crew-header,
+.technology-header{
+    display: flex;
+    justify-content: space-between;
+}
+.home-header img, .destination-header img, .crew-header img ,
+.technology-header img{
+    max-width: 100%;
+    width: 2rem;
+    margin-left: 1rem;
+}
+.home-header, .destination-header, .crew-header,
+.technology-header{
+    padding-top: 2rem;
+}
+.home-header-line, .destination-header-line, .crew-header-line,
+.technology-header-line{
+    width: 39.4rem;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, .15);
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, .15);
+    opacity: 0.5;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    
+
+}
+
+.right-nav a, .destination-header-right-nav a, .crew-header-right-nav a,
+.technology-header-right-nav a{
+    margin: 1rem;
+    font-weight: bold;
+    color: gainsboro;
+    font-size: 14px;
+    text-decoration: none;
+    
+    
+}
+.right-nav, .destination-header-right-nav, .crew-header-right-nav,
+.technology-header-right-nav{
+    background-color: rgba(255, 255, 255, .15);
+}
+.right-nav, .destination-header-right-nav, .crew-header-right-nav,
+.technology-header-right-nav{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);    
+}
+.right-nav, .destination-header-right-nav{
+    padding: 1.5rem;
+    padding-right: 2rem;
+    
+}
+.right-nav span, .destination-header-right-nav span, .crew-header-right-nav span,
+.technology-header-right-nav span{
+    color: white;
+}
+.right-nav:hover, .destination-header-right-nav:hover,
+.crew-header-right-nav:hover, .technology-header-right-nav:hover{
+    border-bottom:1px solid white;
+    cursor: pointer;
+    
+    
+}
+.right-nav a:hover, .destination-header-right-nav a:hover,
+.crew-header-right-nav a:hover, .technology-header-right-nav a:hover{
+    opacity:0.5 ;
+}
+.home-content{
+
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 7rem;
+    
+}
+.left-home-content h3{
+ font-size: 2rem;
+ font-weight: bold;
+ padding-bottom: 1rem;
+ opacity: 0.5;
+}
+.left-home-content h1{
+    font-size: 9rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.left-home-content p{
+    font-size: 1rem;
+    opacity: 0.5;
+}
+.right-home-content{
+    font-size:2rem;
+    font-family:'Times New Roman', Times, serif ;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-top: 5rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 10rem;
+    
+    
+}
+
+.mobile-home{
+    display: none;
+}
+.harmburger-menu{
+    display: none;
+}
+
+/*Destination css which contains moon/mars/europa/titan*/
+.destination{
+    width: 100%;
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.destination-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.destination-left-content p{
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+.destination-left-content span,
+.crew-left-content span{
+    color: rgba(255, 255, 255, .15);
+}
+.destination-left-content img{
+    max-width: 100%;
+}
+.destination-mobile{
+    display: none;
+}
+.destination-content-nav{
+    padding-top: 7rem;
+}
+.destination-content-nav a{
+  padding: 1rem;
+  color: whitesmoke;
+  font-size: 1rem;
+  text-decoration: none;
+  
+  
+}
+.destination-content-nav a:hover{
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+    cursor: pointer;
+      
+}
+ 
+
+.destination-right-content h1{
+   font-size: 5rem;
+   font-weight: bold;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.destination-right-content p{
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+.destination-line{
+    width: 20rem;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, .15);
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, .15);
+    opacity: 0.5;
+     
+}
+.distance{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+/*Crew css*/
+.crew{
+    width: 100%;
+    background-image: url(assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.crew-header-right-nav{
+    padding: 1.5rem;
+    padding-right:2rem ;
+}
+.crew-content{
+    display: flex;
+    justify-content: space-around;
+}
+.crew-left-content .meet-crew{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    
+}
+.crew-left-content .crew-role{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.crew-left-content .crew-name{
+    font-size: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+}
+.about-crew{
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+}
+.about-crew-mobile{
+    display: none;
+}
+
+.other-crew{
+    display: flex;
+    gap: 1rem;
+}
+.crew-btn{
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    cursor: pointer;
+}
+.crew-btn:target{
+    color: white;
+}
+.crew-btn:active{
+    background-color: white;
+
+}
+
+.crew-right-content img{
+    max-width: 100%;
+    padding-top: 5rem;
+    
+}
+
+/*Technology css*/
+
+.technology{
+    width: 100%;
+    background-image: url(assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.technology-header-right-nav{
+    padding: 1.5rem;
+    padding-right: 2rem;
+}
+.about-vehicle-mobile{
+    display: none;
+}
+.technology-content{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 2rem;
+}
+.technology-launch {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+.technology-launch span{
+    color: rgba(255, 255, 255, .15);
+}
+.technology-left-content2{
+    display: flex;
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+
+
+.technology-left-content2 span{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    background-color: inherit;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+    color: whitesmoke;
+    
+    
+
+}
+.other-tech a{
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+.other-tech a span:hover{
+    background-color: white;
+    color: black;
+}
+.other-tech a span:target{
+    background-color: white;
+
+}
+.technology-term{
+    font-size: 0.8rem;
+    color: whitesmoke;
+}
+.technology-name{
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+
+}
+.about-vehicle{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.technology-content img{
+    max-width: 100%;
+    padding-top: 2rem;
+    
+}
+.technology-content .mobile-img, .crew-content .crew-mobile-img,.destination-content
+.destination-mobile-img{
+   display: none;
+}
+.menu-list{
+    display: none;
+}
+
+
+@media screen and ( max-width:600px){
+    body, .destination, .crew, .technology{
+        width: 100%;
+        text-align: center;
+    }
+    body{
+        background-image: url(assets/home/background-home-mobile.jpg);
+        background-size: cover;
+    }
+    .destination{
+        background-image: url(assets/destination/background-destination-mobile.jpg);
+        background-size: cover;
+    }
+    .crew{
+        background-image: url(assets/crew/background-crew-mobile.jpg);
+    }
+    .technology{
+        background-image: url(assets/technology/background-technology-mobile.jpg);
+        background-size: cover;
+    }
+    .home-header-line, .destination-header-line,
+    .crew-header-line, .technology-header-line{
+        display: none;
+    }
+    
+    .left-home-content p, .right-nav, .destination-header-right-nav
+    , .crew-header-right-nav, .technology-header-right-nav,
+    .destination-right-content p{
+        display: none;
+    }
+    .left-home-content .mobile-home
+    , .destination-content .destination-mobile,
+    .crew-content .about-crew-mobile, .about-vehicle-mobile{
+        display: block;
+        padding-bottom: 2rem;
+    }
+    .home-content, .destination-content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+     .left-home-content h1{
+        font-size: 4rem
+    }
+    .left-home-content h3{
+        font-size: 1.5rem;
+    }
+    .right-home-content{
+        margin: auto;
+    }
+    .crew-content, .technology-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .crew-content .about-crew, .meet-crew, .about-vehicle{
+        display: none;
+    }
+    .crew-content .crew-role{
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, .15);
+        padding-top: 1rem;
+    }
+    .crew-content .crew-name{
+        font-size: 2rem;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .crew-content .about-crew-mobile{
+        font-size: 1rem;
+        font-weight: lighter;
+        color: whitesmoke;
+        text-align: center;
+    }
+    .crew-content .mobile-content{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+    }
+    .crew-content .other-crew{
+        margin-left:auto;
+        padding-bottom: 1rem;
+        padding-right: 0;
+        margin: 0;
+        margin-right: 33.3%;
+        margin-left: 33.3%;
+    }
+    .technology-left-content2{
+        display: flex;
+        flex-direction: column;
+    }
+    .other-tech{
+        display: flex;
+        margin: 0rem;
+        padding: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+    .other-tech a{
+        padding-right: 0;
+    }
+    .technology-content img, .crew-content img, .destination-content img{
+        display: none;
+    }
+    .technology-content .mobile-img, .crew-content .crew-mobile-img,.destination-content
+     .destination-mobile-img{
+        display: block;
+        max-width: 100%;
+        margin: auto;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: o;
+        margin-left: 0;
+    }
+   
+    
+    .technology-left-content2{
+        margin: auto;
+        padding-right: 0;
+    }
+    .menu-list{
+       display: flex;
+       flex-direction: column;
+       background-color:hsl(0 10 100/0.1);
+       width: 100%;
+       text-align: left;
+       align-self: center;
+       left: 0;
+       top: 0;
+       display: none;
+       position: relative ;
+       z-index: 98;
+       padding-top:5rem;
+       padding-right: 2rem;
+       backdrop-filter: blur(2rem);
+       min-height: 90vh;
+       position: fixed;
+       inset: 0 0 0 5rem;
+       
+
+    }
+    
+    .menu-list.active{
+        display: block;
+    }
+    .menu-list a{
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        font-size: 1.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        
+        
+    }
+    .menu-list a:hover{
+        color: red;
+    }
+    .menu-list a span{
+        color: white;
+        
+    }
+     .harmburger-menu {
+        display: block;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        right: 1rem;
+        z-index: 9999;
+        position: fixed;
+        
+        
+        
+        
+        
+    }
+    .closeIcon{
+        display: none;
+        z-index: 9999;
+    }
+    
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
